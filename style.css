@@ -1,0 +1,211 @@
+html{
+  font-size: 55.5%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
+  height: 1.4rem;
+  position: relative;
+  top: 0.8rem;
+}
+.header__left{
+  position: relative;
+  left: 2rem;
+}
+.header__right{
+  position: relative;
+  right: 2rem;
+}
+.header button{
+  background-color: #159cbc;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: 0rem 1rem 0rem 1rem;
+  cursor: pointer;
+}
+
+/* Navigation Bar */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #159cbc;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  z-index: 1;
+  opacity: 0.7;
+  width: 100%;
+  top: 1.5rem;
+  box-shadow: 0px 4px 5px 1px #00000080;
+}
+.nav__logo__icon{
+  position: relative;
+  left: 2rem;
+}
+.nav__logo__icon img{
+  height: 3.5rem;
+}
+.nav__list{
+  position: relative;
+  right: 2rem;
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+.nav ul a{
+  color: white;
+  text-decoration: none;
+}
+.nav ul a:hover{
+  color: black;
+}
+.nav--ham--icon{
+  display: none;
+}
+.nav--checkbox{
+  display: none;
+}
+.nav__list__mobile{
+  display: none;
+}
+/* Container */
+
+/* Poster of Container */
+.poster{
+  position: relative;
+  bottom: 3.5rem;
+}
+.poster img{
+  height: auto;
+  width: 100%;
+}
+
+.container{
+  padding: 0rem 2rem 0rem 2rem;
+}
+/* Container Heading section */
+.container__heading{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem; 
+}
+.container__heading--title{
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+/* Container Upper Body Left Section*/
+.container__body{
+  display: flex;
+  margin-bottom: 4rem;
+}
+.container__body__left p{
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+}
+.container__body__left--tabBox{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.container__body__left--tabBox figure{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  gap: 1rem;
+}
+.container__body__left--tabBox figcaption{
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+}
+.container__body__left--tabBox img{
+  height: 2rem;
+  width: 2rem;
+}
+
+/* Container Body Upper Right Section*/
+.container__body__right{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container__body__right img{
+  height: 15rem;
+}
+/* Container department */
+.container__department{
+  margin: 0rem 2rem 2rem 2rem;
+}
+.container__department--heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.container__department--heading--title{
+  font-family: 'Lato', sans-serif;
+  color: #159cbc;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+.container__department--heading img{
+  height: 2rem;
+  width: 5rem;
+}
+.container__department--iconBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container__department--iconBox figure{
+  margin: 0;
+}
+.container__department--iconBox img{
+  height: 9rem;
+  width: 9rem;
+}
+.container__department--iconBox figcaption{
+  font-family: 'Lato', sans-serif;
+  color: #159cbc;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container__department--iconBox--more img{
+  height: 6rem;
+  width: 8rem;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  border-top: 0.2rem dashed #159cbc;
+  opacity: 0.8;
+}
